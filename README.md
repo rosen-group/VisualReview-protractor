@@ -74,7 +74,10 @@ The VisualReview accepts a config object such as:
 ```
 {
   hostname: 'localhost',
-  port: 7000
+  port: 7000,
+    scheme: 'https', //(optional: http|https, http is used if not specified)
+    strictSSL: true, //(optional: true|false, disable ssl certificate check, true if not specified)
+    catchErrors: false //(optional: true|false, disable error throwing to not influence the test progress in case of vr errors, false if not specified)
 }
 ```
 
@@ -104,3 +107,6 @@ compareSettings: {
 Copyright © 2015 Xebia
 
 Distributed under the [Apache License 2.0](http://http://www.apache.org/licenses/LICENSE-2.0).
+
+## Fork
+This is a fork of the original GitHub repository (https://github.com/xebia/VisualReview-protractor) to add some configuration properties and to consume these changes from npm.
