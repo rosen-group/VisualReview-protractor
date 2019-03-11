@@ -14,7 +14,7 @@ npm install @rosen-group/visualreview-protractor --save-dev
 Then configure visualreview-protractor in your protractor configuration file. Here's an example:
 
 ```javascript
-const VisualReview = require('visualreview-protractor');
+const VisualReview = require('@rosen-group/visualreview-protractor');
 var vr = new VisualReview({
   hostname: 'localhost',
   port: 7000,
