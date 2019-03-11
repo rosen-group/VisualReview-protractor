@@ -8,7 +8,7 @@ Requires Protractor 1.4.0 or higher.
 First add visualreview-protractor to your protractor project's dependencies.
 
 ```shell
-npm install visualreview-protractor --save-dev
+npm install @rosen-group/visualreview-protractor --save-dev
 ```
 
 Then configure visualreview-protractor in your protractor configuration file. Here's an example:
